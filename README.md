@@ -12,14 +12,14 @@
 
 ## Usage
 
-#####create map
+##### create map
 
 ```python
 map = createMap(x: int, y: int) -> list
 type(map[x][y]) == str  # True
 ```
 
-#####add rectangle
+##### add rectangle
 
 ```Python
 # Return grid: list with rect in pos (x, y) and with width and height (w, h)
@@ -33,6 +33,6 @@ map = rect(map, 2, 2, 3, 3, "W")
 
 ---
 
-###About
+### About
 
 [Github](http://https://github.com/KseandI) | [Email](KseandI@gmail.com) | [Reddit](https://www.reddit.com/user/KseandI) | [VK](https://vk.com/xxigor2005xx)
