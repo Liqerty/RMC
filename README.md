@@ -1,3 +1,5 @@
+![logo](/home/igor/Desktop/RMG/assets/logoMicro.png)
+
 ## Main
 
  * Name: RMG (rouge map creator)
