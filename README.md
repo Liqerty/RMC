@@ -17,8 +17,12 @@
 ```python
 # Create map with size (x, y)
 # wall - char of wall | air - char of air
-map = createMap(x: int, y: int, wall: str = "#", air: str = "*") -> list
+createMap(x: int, y: int, wall: str = "#", air: str = "*") -> list
 # map[x][y] is string
+
+# Example:
+map = createMap(10, 10, "#", "*")
+# Will create map 10x10
 ```
 
 ##### add rectangle
