@@ -39,6 +39,6 @@ map = rect(map, 2, 2, 3, 3, "W")
 
 ---
 
-### About
+### About Me
 
 [Github](https://github.com/KseandI) | [Email](KseandI@gmail.com) | [Reddit](https://www.reddit.com/user/KseandI) | [VK](https://vk.com/xxigor2005xx)
