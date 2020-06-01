@@ -1,4 +1,4 @@
-![logo](/home/igor/Desktop/RMG/assets/logoMicro.png)
+![logo](assets/logoMicro.png)
 
 ## Main
 
