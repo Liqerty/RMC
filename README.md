@@ -41,4 +41,4 @@ map = rect(map, 2, 2, 3, 3, "W")
 
 ### About
 
-[Github](http://https://github.com/KseandI) | [Email](KseandI@gmail.com) | [Reddit](https://www.reddit.com/user/KseandI) | [VK](https://vk.com/xxigor2005xx)
+[Github](https://github.com/KseandI) | [Email](KseandI@gmail.com) | [Reddit](https://www.reddit.com/user/KseandI) | [VK](https://vk.com/xxigor2005xx)
