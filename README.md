@@ -4,6 +4,7 @@
  * Author: KseandI
  * Version: 0.0.1
  * Made: with love and for Liqerty Team
+ * Logo: I know the logo is bad
 
 ---
 
