@@ -15,8 +15,10 @@
 ##### create map
 
 ```python
-map = createMap(x: int, y: int) -> list
-type(map[x][y]) == str  # True
+# Create map with size (x, y)
+# wall - char of wall | air - char of air
+map = createMap(x: int, y: int, wall: str = "#", air: str = "*") -> list
+# map[x][y] is string
 ```
 
 ##### add rectangle
