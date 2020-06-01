@@ -17,7 +17,7 @@ type(map[x][y]) == str  # True
 ```
 
 ##### Executable
-``` Python
+``` Shell
 
 $ python3 main.py (Will print 20x20 random map)
 
