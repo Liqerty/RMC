@@ -2,7 +2,7 @@
 
 ## Main
 
- * Name: RMG (rouge map creator)
+ * Name: RMC (rouge map creator)
  * Author: KseandI
  * Version: 0.2.1
  * Made: with love and for Liqerty Team
