@@ -1,12 +1,5 @@
 from random import randint  # For rooms
 
-# =====================
-#  Name: RMG (rouge map creator)
-#  Author: KseandI
-#  Version: 0.0.1
-#  Made: with love and for Liqerty Team
-# =====================
-
 def fillRect(grid: list, x: int, y: int, w: int, h: int, fill: str = "~") -> list:
     for i in range(x, x+w):
         for j in range(y, y+h):
