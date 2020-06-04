@@ -21,7 +21,7 @@ createMap(x: int, y: int, wall: str = "#", air: str = "*") -> list
 # map[x][y] is string
 
 # Example:
-map = createMap(10, 10, "#", "*")
+map = createMap(10, 10, "#", "*")['grid']
 # Will create map 10x10
 ```
 

@@ -72,12 +72,12 @@ def createMap(x: int, y: int, wall: str = "#", air: str = "*") -> dict:
         bw = w
         bh = h
         num_of_rooms += 1
-    return {'gird': grid, 'num_of_rooms': num_of_rooms}
+    return {'grid': grid, 'num_of_rooms': num_of_rooms}
 
 
 if __name__ == "__main__":
     a = createMap(20, 20, "S", "~")
-    grid = a['gird']
+    grid = a['grid']
     for i in range(len(grid)):
         for j in range(len(grid[i])):
             print(grid[j][i], end="")
