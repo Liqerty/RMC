@@ -4,7 +4,7 @@
 
  * Name: RMC (rouge map creator)
  * Author: KseandI
- * Version: 0.2.1
+ * Version: 1.0.0
  * Made: with love and for Liqerty Team
  * Logo: I know the logo is bad
 
@@ -32,9 +32,23 @@ map = createMap(10, 10, "#", "*")
 # stroke - char of borders
 rect(grid: list, x: int, y: int, w: int, h: int, stroke: str = "#") -> list
 
+# fillRect() fill from (x, y) to (x+w, y+h)
+# fill - char of fill
+fillRect(grid: list, x: int, y: int, w: int, h: int, fill: str = "*") -> list
+
 # Example:
 map = rect(map, 2, 2, 3, 3, "W")
 # Create rect on map with coords x=2, y=2 and with size w and h. Borders will be "W"
+```
+
+##### add line
+
+```Python
+line(grid: list, x: int, y: int, tx: int, ty: int, stroke: str = "*") -> list
+
+# Example:
+map = line(map, 2, 2, 7, 7, "*")
+# Create line from (2, 2) to (5, 2) then to (5, 7) and finaly to (7, 7)
 ```
 
 ---
