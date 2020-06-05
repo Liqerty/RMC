@@ -3,7 +3,7 @@ from random import randint  # For rooms
 def fillRect(grid: list, x: int, y: int, w: int, h: int, fill: str = "*") -> list:
     for i in range(x, x+w):
         for j in range(y, y+h):
-            grid[i][j] = fill
+            grid[j][i] = fill
     return grid
 
 def rect(grid: list, x: int, y: int, w: int, h: int, stroke: str = "#") -> list:
@@ -23,18 +23,18 @@ def line(grid: list, x: int, y: int, tx: int, ty: int, stroke: str = "*") -> lis
     #print([x, y, tx, ty])
     if max(tx - x, x - tx) >= max(ty - y, y - ty):  # If distance between tx and x >= distance between ty and y
         for i in range(min(x, int((x+tx)/2)), max(x, int((x+tx)/2))+1):
-            grid[i][y] = stroke
+            grid[y][i] = stroke
         for i in range(min(y, ty), max(y, ty+1)):
-            grid[int((x+tx)/2)][i] = stroke
+            grid[i][int((x+tx)/2)] = stroke
         for i in range(min(int((x+tx)/2), tx+1), max(int((x+tx)/2), tx+1)):
-            grid[i][ty] = stroke
+            grid[ty][i] = stroke
     else:
         for i in range(min(y, int((y+ty)/2)), max(y, int((y+ty)/2)+1)):
-            grid[x][i] = stroke
+            grid[i][x] = stroke
         for i in range(min(x+1, tx+1), max(x+1, tx+1)):
-            grid[i][int((y+ty)/2)] = stroke
+            grid[int((y+ty)/2)][i] = stroke
         for i in range(min(int((y+ty)/2), ty), max(int((y+ty)/2)+1, ty+1)):
-            grid[tx][i] = stroke
+            grid[i][tx] = stroke
     return grid
 
 def createMap(x: int, y: int, wall: str = "#", air: str = "*") -> dict:
